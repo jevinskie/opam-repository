@@ -35,8 +35,8 @@ install: [
   "sh" "-exc" "PATH=%{prefix}%/init_deps/bin/:$PATH make install"
 ]
 url {
-  src: "https://github.com/ocaml-flambda/flambda-backend/archive/refs/tags/5.2.0minus-2.tar.gz"
-  checksum: ["sha256=fea242bf6707991bcd6de388a247aaf966e4936098a7db170560b3e879436c6c"]
+  src: "https://github.com/ocaml-flambda/flambda-backend/archive/830d294c4a75f2e72805d4f31904a98cae8a45e4.tar.gz"
+  checksum: ["sha256=139b98e7ad5dabfa9bedbd1b4c0bd4e01e6a8268b006eb0b9d0714f97ca6a4f1"]
 }
 extra-files: [
   ["meta.patch" "sha256=3f165d873951620a3189938a909305aa0de3c77b998b6c84125f39ae95e91fb2"]
