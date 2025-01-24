@@ -38,11 +38,3 @@ url {
   src: "https://github.com/ocaml-flambda/flambda-backend/archive/830d294c4a75f2e72805d4f31904a98cae8a45e4.tar.gz"
   checksum: ["sha256=139b98e7ad5dabfa9bedbd1b4c0bd4e01e6a8268b006eb0b9d0714f97ca6a4f1"]
 }
-extra-files: [
-  ["meta.patch" "sha256=3f165d873951620a3189938a909305aa0de3c77b998b6c84125f39ae95e91fb2"]
-  ["remove-sigwait.patch" "sha256=1983f61bd5a53cd9918acd297c40ea5327370325c2974c18dfdcd21f9f0cac20"]
-]
-patches: [
-  "meta.patch"
-  "remove-sigwait.patch"
-]
